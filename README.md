@@ -1,29 +1,54 @@
-# ProjetAngular
+# 🎨 ArtGallerie – Boutique de Tableaux Artistiques (Frontend Angular 18)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.3.
+ArtGallerie est une application web e-commerce développée avec **Angular 18**, dédiée à la vente de tableaux artistiques.  
+Elle propose une interface immersive et moderne permettant aux utilisateurs de parcourir des œuvres, gérer un panier et simuler un processus complet de commande — entièrement côté frontend.
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🚀 Fonctionnalités principales
 
-## Code scaffolding
+### 🖼️ 1. Catalogue de tableaux artistiques
+- Affichage dynamique d’une collection de tableaux.  
+- Filtres par catégorie, artiste, style ou prix.  
+- Recherche instantanée.  
+- Page de détails d’un tableau (description, prix, stock simulé).
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### 🛒 2. Panier complet
+- Ajouter un tableau au panier.  
+- Modifier les quantités.  
+- Supprimer des articles.  
+- Calcul automatique du total + total avec taxes (si applicable).  
+- Persistance du panier en localStorage.
 
-## Build
+### 📦 3. Processus de commande
+- Formulaire complet d’informations client (nom, adresse, contact…).  
+- Validation des champs et messages d’erreur dynamiques.  
+- Récapitulatif de commande.  
+- Simulation de la confirmation de commande avec numéro généré.  
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### 👤 4. Espace utilisateur (simulation frontend)
+- Connexion / déconnexion (données stockées localement).  
+- Gestion du profil utilisateur.  
+- Historique des commandes (mock data + stockage local).  
 
-## Running unit tests
+### 📱 5. Interface UX/UI moderne
+- Design Responsive (PC, tablette, mobile).  
+- Utilisation d’Angular Material (optionnel selon ton projet).  
+- Navigation fluide avec animations et transitions.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+---
 
-## Running end-to-end tests
+## 🛠️ Technologies & outils
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- **Angular 18**  
+- **TypeScript**  
+- **HTML5 / CSS3**  
+- **Angular Router**  
+- **RxJS**  
+- **LocalStorage** (pour panier & commande)  
+- **Mock JSON data** (simuler API)  
 
-## Further help
+---
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-"# ArtGallery" 
-"# ArtGallery" 
+## 📂 Architecture du projet
+
